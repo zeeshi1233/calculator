@@ -1,0 +1,154 @@
+h1{
+text-align: center;
+
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 95vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.main{
+background-color: black;
+outline: black;
+width:300px ;
+height:400px ;
+border-radius: 10px;
+margin: 10px auto;
+margin-top:100px ;
+}
+.screen{
+background-color: aliceblue;
+outline: white;
+border-radius: 4px;
+width:230px ;
+height:30px ;
+margin: 10px auto;
+padding: 10px;
+}
+p{
+    background-position: left center;
+    margin-top:5px  ;
+    font-size: 20px;
+    text-align:  center;
+}
+.a7{
+    background-color: aliceblue;
+    outline: aliceblue;
+    border-radius: 4px;
+    width:30px ;
+    height:30px ;
+    margin-left: 25px;
+    padding: 10px;
+    display: inline-block;
+   
+}
+.a8{
+    background-color: aliceblue;
+    outline: aliceblue;
+    border-radius: 4px;
+    width:30px ;
+    height:30px ;
+    margin-left: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.a9{
+    background-color: aliceblue;
+    outline: aliceblue;
+    border-radius: 4px;
+    width:30px ;
+    height:30px ;
+    margin-left: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.asl{
+    background-color: aliceblue;
+    outline: aliceblue;
+    border-radius: 4px;
+    width:30px ;
+    height:30px ;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top:10px ;
+    display: inline-block;
+}
+.asl1{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    width:30px ;
+    height:30px ;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top:10px ;
+    display: inline-block;
+}
+.asl1:hover{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+	
+
+
+}
+.asl:hover{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+	
+}
+#nyc:hover{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+	
+}
+
+
+
+
+
+button{
+width:240px ;
+background-color: red;
+color: white;
+height:40px ;
+border-radius:5px ;
+padding: 10px;
+margin:10px auto ;
+margin-left: 25px;
+cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+	
+}
+h1:first-letter{
+    font-size:80px ;
+    color:red;
+    }
+    h1{
+    
+    text-decoration: underline;
+    
+    }
+    h1:hover{
+        text-decoration: underline;
+        color: aqua;
+      cursor: pointer;
+    }
+        
